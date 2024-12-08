@@ -46,7 +46,7 @@ docker-compose restart
 
 ```bash
 # Connect to MongoDB shell inside the container
-docker exec -it mongodb mongosh -u root -p example
+docker exec -it mongodb mongosh -u root -p admin
 
 # Connect using MongoDB Compass
 mongodb://root:example@localhost:27017/
